@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mic.ku.edu.np/sitemap.xml
+
