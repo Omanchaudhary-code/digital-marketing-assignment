@@ -14,7 +14,7 @@ const merriweather = Merriweather({
 export const metadata: Metadata = {
   title: "Faculty & Teaching Approach | BBIS - KU School of Management",
   description:
-    "Meet our expert faculty at KU School of Management's BBIS program. Discover our student-centered teaching philosophy, modern pedagogy, and the qualified professors shaping Nepal's future technology leaders.",
+    "Discover the Department of Management Informatics and Communication at Kathmandu University School of Management—meet BBIS faculty, explore modern teaching methods, and see how our curriculum blends technology, management, and communication to develop industry-ready graduates.",
   generator: "v0.app",
   icons: {
     icon: [
