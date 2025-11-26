@@ -4,7 +4,6 @@ const assetCacheControl = "public, max-age=31536000, immutable"
 const nextConfig = {
   reactStrictMode: true,
   compress: true,
-  swcMinify: true,
   poweredByHeader: false,
   experimental: {
     optimizeCss: true,
@@ -15,11 +14,7 @@ const nextConfig = {
   compiler: {
     removeConsole: { exclude: ["error", "warn"] },
   },
-  modularizeImports: {
-    "lucide-react": {
-      transform: "lucide-react/dist/esm/icons/{{member}}",
-    },
-  },
+  // Removed modularizeImports for lucide-react
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [360, 640, 768, 1080, 1366, 1600, 1920],
