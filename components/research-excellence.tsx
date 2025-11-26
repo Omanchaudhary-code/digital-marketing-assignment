@@ -40,7 +40,7 @@ export function ResearchExcellence() {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-              Research & Academic Excellence
+              DoMIC Research & Academic Excellence
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               Our faculty are not just teachers—they are active researchers contributing to the advancement of knowledge
@@ -74,7 +74,7 @@ export function ResearchExcellence() {
 
           <div>
             <div className="rounded-2xl border border-border bg-card p-8">
-              <h3 className="mb-6 text-xl font-semibold text-card-foreground">Faculty Research Areas</h3>
+              <h3 className="mb-6 text-xl font-semibold text-card-foreground">DoMIC Faculty Research Areas</h3>
               <ul className="space-y-3">
                 {researchAreas.map((area, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -86,7 +86,7 @@ export function ResearchExcellence() {
             </div>
 
             <div className="mt-6 rounded-xl bg-accent/10 p-6">
-              <h4 className="font-semibold text-foreground">Student Research Opportunities</h4>
+              <h3 className="font-semibold text-foreground">BBIS Student Research Opportunities</h3>
               <p className="mt-2 text-sm text-muted-foreground">
                 BBIS students can participate in faculty-led research projects, present at departmental seminars, and
                 contribute to publications under faculty mentorship.

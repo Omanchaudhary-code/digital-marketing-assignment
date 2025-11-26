@@ -25,7 +25,7 @@ export function VisitingFaculty() {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-              Industry Connections & Visiting Faculty
+              DoMIC Industry Connections & Visiting Faculty
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               Beyond our permanent faculty, BBIS students benefit from regular interactions with industry professionals,
@@ -58,11 +58,11 @@ export function VisitingFaculty() {
           </div>
 
           <div>
-            <h3 className="mb-6 text-xl font-semibold text-foreground">Recent Workshops & Guest Sessions</h3>
+            <h3 className="mb-6 text-xl font-semibold text-foreground">Recent DoMIC Workshops & Guest Sessions</h3>
             <div className="space-y-4">
               {workshops.map((workshop, index) => (
                 <div key={index} className="rounded-xl border border-border bg-card p-6">
-                  <h4 className="font-semibold text-card-foreground">{workshop.title}</h4>
+                  <p className="font-semibold text-card-foreground">{workshop.title}</p>
                   <p className="mt-1 text-sm text-accent">{workshop.speaker}</p>
                   <p className="mt-2 text-sm text-muted-foreground">{workshop.description}</p>
                 </div>

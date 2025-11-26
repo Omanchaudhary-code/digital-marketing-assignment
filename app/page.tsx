@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { FacultyOverview } from "@/components/faculty-overview"
@@ -11,6 +12,12 @@ import { ResearchExcellence } from "@/components/research-excellence"
 import { FacultyProfiles } from "@/components/faculty-profiles"
 import { CallToAction } from "@/components/call-to-action"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "Faculty | BBIS Kathmandu University",
+  description:
+    "Meet the BBIS faculty at Kathmandu University School of Management—experts blending information systems, management, and communication to mentor future leaders.",
+}
 
 export default function FacultyPage() {
   return (

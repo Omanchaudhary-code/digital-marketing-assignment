@@ -1,5 +1,8 @@
 User-agent: *
+Disallow: /api/
+Disallow: /private/
+Disallow: /drafts/
 Allow: /
 
-Sitemap: https://mic.ku.edu.np/sitemap.xml
+Sitemap: https://bbis.vercel.app/sitemap.xml
 

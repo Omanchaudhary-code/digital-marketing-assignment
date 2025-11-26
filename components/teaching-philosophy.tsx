@@ -7,7 +7,7 @@ export function TeachingPhilosophy() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
           <div className="lg:col-span-3">
-            <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">Our Teaching Philosophy</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">DoMIC Teaching Philosophy for BBIS</h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               At KU School of Management, we believe that the best learning happens when students are actively engaged
               in solving real-world problems. Our teaching philosophy centers on creating an environment where curiosity

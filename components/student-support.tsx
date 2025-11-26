@@ -46,7 +46,7 @@ export function StudentSupport() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">A Support System That Cares</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">DoMIC Faculty Support for BBIS Students</h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               At DoMIC, we understand that academic success extends beyond the classroom. Our faculty is deeply committed
               to supporting each student&apos;s unique journey, whether that means providing extra help with challenging

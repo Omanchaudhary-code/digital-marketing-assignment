@@ -22,7 +22,14 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg bg-background">
-            <Image src="/90.png" alt="KU Logo" width={40} height={40} priority className="h-full w-full object-contain" />
+            <Image
+              src="/90.png"
+              alt="Kathmandu University School of Management crest"
+              width={40}
+              height={40}
+              priority
+              className="h-full w-full object-contain"
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold text-foreground">

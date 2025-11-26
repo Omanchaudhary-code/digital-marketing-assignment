@@ -33,7 +33,7 @@ export function CallToAction() {
     <section className="bg-secondary py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">Continue Your Exploration</h2>
+          <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">Explore BBIS Pathways at DoMIC</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Now that you&apos;ve met our faculty, discover more about what makes the BBIS program at KU School of
             Management the right choice for your future in technology and business.

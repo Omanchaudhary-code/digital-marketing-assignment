@@ -14,7 +14,7 @@ export function FacultyOverview() {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-              Excellence in Teaching, Innovation in Learning
+              DoMIC Faculty Excellence in Teaching and Learning
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               At the Department of Management, Informatics and Communication (DoMIC), our faculty represents the perfect blend
@@ -31,7 +31,7 @@ export function FacultyOverview() {
 
           <div className="flex flex-col justify-center">
             <div className="rounded-2xl border border-border bg-card p-8">
-              <h3 className="mb-6 text-xl font-semibold text-card-foreground">What Sets Our Faculty Apart</h3>
+              <h3 className="mb-6 text-xl font-semibold text-card-foreground">What Sets Our DoMIC Faculty Apart</h3>
               <ul className="space-y-4">
                 {highlights.map((highlight, index) => (
                   <li key={index} className="flex items-start gap-3">
