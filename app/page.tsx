@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Meet the BBIS faculty at Kathmandu University School of Management—experts blending information systems, management, and communication to mentor future leaders.",
 }
 
-export default function FacultyPage() {
+export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
