@@ -4,26 +4,26 @@ import { BookOpen, FlaskConical, Users, TrendingUp } from "lucide-react"
 const nextSteps = [
   {
     icon: BookOpen,
-    title: "Explore the Curriculum",
-    description: "See how our courses are structured to build your expertise.",
+    title: "Explore the BBIS Curriculum",
+    description: "Understand how each course builds your technical, analytical, and managerial strengths.",
     href: "https://mic.ku.edu.np/static-page/bbis-course-catalogue-2021--present",
   },
   {
     icon: FlaskConical,
-    title: "Discover Our Labs",
-    description: "Learn about the resources and technology available to you.",
+    title: "Visit Our Digital Innovation Labs",
+    description: "Discover hands-on learning spaces equipped with modern tools and technologies.",
     href: "/labs",
   },
   {
     icon: Users,
-    title: "Student Life at DoMIC",
-    description: "Experience the vibrant community beyond the classroom.",
+    title: "Experience Student Life",
+    description: "See how BBIS students collaborate, lead clubs, and grow beyond academics.",
     href: "/student-life",
   },
   {
     icon: TrendingUp,
-    title: "Career Outcomes",
-    description: "See where our graduates are making an impact.",
+    title: "Explore Career Outcomes",
+    description: "Learn where BBIS graduates work and how the program accelerates career growth.",
     href: "/outcomes",
   },
 ]
@@ -33,10 +33,12 @@ export function CallToAction() {
     <section className="bg-secondary py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">Explore BBIS Pathways at DoMIC</h2>
+          <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
+            Discover Your Path in BBIS at DoMIC
+          </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Now that you&apos;ve met our faculty, discover more about what makes the BBIS program at KU School of
-            Management the right choice for your future in technology and business.
+            You’ve met our faculty—now explore the program, opportunities, and learning journey that empower
+            future-ready graduates in business information systems.
           </p>
         </div>
 
@@ -50,7 +52,11 @@ export function CallToAction() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                 <step.icon className="h-6 w-6" />
               </div>
-              <h3 className="mb-2 font-semibold text-card-foreground group-hover:text-accent">{step.title}</h3>
+
+              <h3 className="mb-2 font-semibold text-card-foreground group-hover:text-accent">
+                {step.title}
+              </h3>
+
               <p className="text-sm text-muted-foreground">{step.description}</p>
             </Link>
           ))}

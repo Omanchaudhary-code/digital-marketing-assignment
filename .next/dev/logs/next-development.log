@@ -1,39 +1,158 @@
-[00:00:00.800] Server  LOG      ✓ Ready in 549ms
-[00:00:10.570] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.570] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.570] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259952423}
-[00:00:10.729] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
-[00:00:20.756] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:20.756] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/faculty","route":"/faculty"}
-[00:00:20.756] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259962610}
-[00:00:20.999] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
-[00:00:23.531] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
-[00:01:08.995] Server  LOG      ✓ Compiled in 60ms
-[00:08:25.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:25.687] Server  LOG      ✓ Compiled in 39ms
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:25.926] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:08:27.116] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
-[00:08:27.116] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:27.116] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:27.116] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764260448961}
-[00:09:06.637] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764260488479}
-[00:09:11.168] Browser WARN    Image with src "/pk.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/bks.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/ka.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/yrl.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/hca.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/rg.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/professional-headshot-male-lecturer-asian-young-ca.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.168] Browser WARN    Image with src "/nn.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:11.169] Browser WARN    Image with src "/dpd.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:15.600] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764260497443}
-[00:09:28.841] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764260510683}
-[00:09:30.604] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764260512446}
+[00:00:00.645] Server  LOG      ✓ Ready in 417ms
+[00:00:05.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.173] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.173] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.173] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927916255}
+[00:00:05.173] Browser WARN    Image with src "/90.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.424] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.556] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.556] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.556] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927916635}
+[00:00:05.556] Browser WARN    Image with src "/90.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.976] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.976] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.976] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927917051}
+[00:00:05.976] Browser WARN    Image with src "/90.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:07.752] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927918842}
+[00:00:11.812] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927922904}
+[00:00:27.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927938777}
+[00:00:34.623] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927945714}
+[00:00:36.257] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927947348}
+[00:00:38.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927949570}
+[00:00:39.633] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764927950723}
+[00:01:59.343] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:59.343] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:59.343] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928030432}
+[00:01:59.539] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:02:03.110] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928034197}
+[00:02:08.452] Browser WARN    Image with src "/pk.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:08.452] Browser WARN    Image with src "/bks.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:08.452] Browser WARN    Image with src "/ka.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:16.501] Browser WARN    Image with src "/yrl.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:16.501] Browser WARN    Image with src "/hca.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:16.501] Browser WARN    Image with src "/rg.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:17.016] Browser WARN    Image with src "/professional-headshot-male-lecturer-asian-young-ca.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:17.016] Browser WARN    Image with src "/nn.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:17.016] Browser WARN    Image with src "/dpd.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.717] Server  LOG      ✓ Compiled in 97ms
+[00:09:36.042] Server  LOG      ✓ Compiled in 139ms
+[00:09:39.887] Server  LOG      ✓ Compiled in 46ms
+[00:09:42.982] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928494058}
+[00:13:26.782] Server  LOG      ✓ Compiled in 146ms
+[00:13:29.789] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928720859}
+[00:13:31.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928722669}
+[00:14:17.160] Server  LOG      ✓ Compiled in 116ms
+[00:15:26.344] Server  LOG      ✓ Compiled in 33ms
+[00:17:00.768] Server  LOG      ✓ Compiled in 108ms
+[00:17:19.342] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928950409}
+[00:17:21.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928952312}
+[00:17:25.275] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928956343}
+[00:17:27.587] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764928958655}
+[00:18:21.389] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929012451}
+[00:26:24.030] Server  LOG      ✓ Compiled in 105ms
+[00:26:34.652] Server  LOG      ✓ Compiled in 38ms
+[00:26:40.931] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/birendra.png.jpg" "received" null
+[00:26:55.514] Server  LOG      ✓ Compiled in 59ms
+[00:26:56.343] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/birendra.jpg" "received" null
+[00:27:01.915] Server  LOG      ✓ Compiled in 36ms
+[00:27:03.026] Browser ERROR   ./data/faculty.ts:132:9
+Parsing ecmascript source code failed
+  130 |     degree: "M.Phil in Management (Tribhuvan University), PhD Scholar (Nepal Open University)",
+  131 |     image: "/birendra
+> 132 |     .jpg",
+      |         ^^
+  133 |     courses: ["Marketing", "Business Management", "Entrepreneurship"],
+  134 |     honorsAndAwards: [],
+  135 |     certifications: [],
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./data/faculty.ts
+    ./app/layout.tsx
+[00:27:10.499] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/birendra." "received" null
+[00:27:12.433] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/birendra.jpeg" "received" null
+[00:27:18.645] Browser WARN    Image with src "/birendra.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:35.016] Server  LOG      ✓ Compiled in 65ms
+[00:28:36.114] Server  LOG      ✓ Compiled in 35ms
+[00:28:37.533] Server  LOG      ✓ Compiled in 25ms
+[00:28:41.191] Browser WARN    Image with src "/birendra.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:57.997] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929649046}
+[00:29:25.350] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929676397}
+[00:29:26.587] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929677636}
+[00:30:45.098] Server  LOG      ✓ Compiled in 51ms
+[00:31:37.982] Server  LOG      ✓ Compiled in 108ms
+[00:31:40.318] Browser ERROR   ./app/page.tsx:42:18
+Parsing ecmascript source code failed
+  40 |               <ArrowRight className="ml-2 h-4 w-4" />
+  41 |             </Link>
+> 42 |             <Link
+     |                  ^
+  43 |
+
+Expected '</', got '<eof>'
+[00:31:55.787] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929826834}
+[00:32:05.538] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929836586}
+[00:32:07.750] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764929838797}
+[00:34:11.943] Server  LOG      ✓ Compiled in 69ms
+[00:34:40.333] Server  LOG      ✓ Compiled in 38ms
+[00:34:42.138] Server  LOG      ✓ Compiled in 40ms
+[00:34:51.246] Server  LOG      ✓ Compiled in 42ms
+[00:34:54.376] Server  LOG      ✓ Compiled in 36ms
+[00:34:57.599] Server  LOG      ✓ Compiled in 43ms
+[00:34:58.908] Server  LOG      ✓ Compiled in 44ms
+[00:35:03.274] Server  LOG      ✓ Compiled in 21ms
+[00:35:06.246] Server  LOG      ✓ Compiled in 39ms
+[00:35:07.398] Server  LOG      ✓ Compiled in 22ms
+[00:35:15.693] Server  LOG      ✓ Compiled in 39ms
+[00:35:22.185] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930033226}
+[00:35:48.487] Server  LOG      ✓ Compiled in 33ms
+[00:35:50.090] Browser ERROR   ./app/page.tsx:19:105
+Parsing ecmascript source code failed
+  17 |       <div
+  18 |         className="absolute inset-0 opacity-10 bg-cover bg-center"
+> 19 |         style={{ backgroundImage: "url('https://kusomalumni.org/static/images/icons/kusombuilding.jpg')"backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat }}
+     |                                                                                                         ^^^^^^^^^^^^^^
+  20 |       />
+  21 |       <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-4 text-primary-foreground sm:flex-row sm:items-center">
+  22 |         {/* Left Column */}
+
+Expected '</', got 'backgroundSize'
+[00:35:55.012] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930066054}
+[00:35:56.942] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930067984}
+[00:35:59.034] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faculty color: rgb(120, 120, 120) color: inherit {"dp":"/faculty","o":"http://localhost:3000/faculty","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930070076}
+[00:36:23.034] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930094076}
+[00:37:54.690] Server  LOG      ✓ Compiled in 45ms
+[00:38:21.764] Server  LOG      ✓ Compiled in 74ms
+[00:38:23.468] Browser ERROR   ./app/page.tsx:37:18
+Parsing ecmascript source code failed
+  35 |           </p>
+  36 |           <div className="flex flex-col gap-3 sm:flex-row">
+> 37 |             <Link
+     |                  ^
+  38 |
+
+Expected '</', got '<eof>'
+[00:43:17.198] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:17.198] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:43:17.198] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930508227}
+[00:43:17.395] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:44:38.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:38.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:38.488] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:38.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930589519}
+[00:45:11.416] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
+[00:45:12.122] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:12.122] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:12.122] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930623152}
+[00:45:12.346] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:45:21.874] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:21.993] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:21.993] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:21.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930633024}
+[00:45:22.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:22.751] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:22.751] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:22.751] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764930633780}

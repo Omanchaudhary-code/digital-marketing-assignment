@@ -6,19 +6,19 @@ const connections = [
     icon: Target,
     title: "Practical Skill Development",
     description:
-      "Our teaching methods are designed with one goal in mind: to develop skills that employers actually need. From data analysis to project management, every classroom activity builds toward professional competence.",
+      "Students build high-demand skills through hands-on projects, case studies, analytical tasks, and collaborative problem-solving aligned with real employer expectations.",
   },
   {
     icon: TrendingUp,
-    title: "Research Meets Practice",
+    title: "Research-Driven Teaching",
     description:
-      "Faculty research directly informs classroom content, ensuring students learn about cutting-edge developments in information systems, analytics, and digital business transformation.",
+      "Faculty research in analytics, information systems, and digital strategy directly shapes coursework—keeping learning aligned with emerging tools and industry developments.",
   },
   {
     icon: Lightbulb,
-    title: "Industry Relevance",
+    title: "Industry-Relevant Insights",
     description:
-      "With faculty experienced in IT consulting, software development, and business analysis, students gain insights into industry practices and emerging trends that textbooks can't provide.",
+      "With backgrounds in IT consulting, software engineering, and business analysis, faculty provide real-world guidance that goes far beyond textbook concepts.",
   },
 ]
 
@@ -28,10 +28,11 @@ export function FacultyStudentConnection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-            DoMIC Faculty-to-Student Connection from Classroom to Career
+            How DoMIC Faculty Connect Classroom Learning to Real Career Success
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Our faculty&apos;s expertise translates directly into career-ready skills for our graduates.
+            Our faculty blend academic expertise with industry experience—ensuring every lesson builds toward
+            professional, real-world competency.
           </p>
         </div>
 
@@ -49,24 +50,24 @@ export function FacultyStudentConnection() {
 
         <div className="mt-12 rounded-2xl bg-primary p-8 text-center sm:p-12">
           <h3 className="font-serif text-2xl font-bold text-primary-foreground sm:text-3xl">
-            Ready to See Where BBIS Can Take You?
+            Where Can BBIS Take You?
           </h3>
           <p className="mx-auto mt-4 max-w-2xl text-primary-foreground/80">
-            Our graduates are working at leading technology companies, consulting firms, and innovative startups across
-            Nepal and beyond.
+            BBIS graduates work in leading tech companies, consulting firms, financial institutions, and innovative
+            startups—equipped with skills that match today’s digital economy.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/outcomes"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
             >
-              Learn more about career outcomes
+              Explore Career Outcomes
             </Link>
             <Link
               href="https://mic.ku.edu.np/static-page/bbis-course-catalogue-2021--present"
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-primary-foreground/30 px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10"
             >
-              See the full curriculum
+              View the Full Curriculum
             </Link>
           </div>
         </div>

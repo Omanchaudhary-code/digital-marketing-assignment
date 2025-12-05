@@ -219,7 +219,7 @@ const facultyMembers = [
         name: "Birendra Vaidya",
         title: "Assistant Professor",
         degree: "M.Phil in Management (Tribhuvan University), PhD Scholar (Nepal Open University)",
-        image: "/professional-headshot-male-lecturer-asian-young-ca.jpg",
+        image: "/birendra.webp",
         courses: [
             "Marketing",
             "Business Management",

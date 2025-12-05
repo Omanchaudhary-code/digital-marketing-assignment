@@ -1,8 +1,11 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { usePathname } from "next/navigation"
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -17,6 +20,8 @@ const navItems = [
 ]
 
 export function Header() {
+  const pathname = usePathname() // get current path
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-card/95 backdrop-blur `supports-[backdrop-filter]:bg-card/80`">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -40,17 +45,22 @@ export function Header() {
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
-          {navItems.map((item) => (
-            <Link
-              key={item.label}
-              href={item.href}
-              className={`rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-secondary hover:text-foreground ${
-                item.label === "Home" ? "bg-primary/10 text-primary" : "text-muted-foreground"
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            // Special logic: Faculty behaves like "home" when on /faculty
+            const isActive =
+              item.label === "Faculty" && pathname === "/faculty"
+            return (
+              <Link
+                key={item.label}
+                href={item.href}
+                className={`rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-secondary hover:text-foreground ${
+                  isActive ? "bg-primary/10 text-primary" : item.label === "Home" ? "text-muted-foreground" : "text-muted-foreground"
+                }`}
+              >
+                {item.label}
+              </Link>
+            )
+          })}
         </nav>
 
         <div className="hidden md:block">
